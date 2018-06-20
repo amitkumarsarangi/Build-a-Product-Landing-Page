@@ -1,0 +1,30 @@
+* {margin: 0; padding: 0; border: 0; outline: none;}
+html, body {
+	background-color: #efefef;
+	font-size: 10px;
+}
+#header {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 100vw;
+	background-color: #eaeaea;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+	#header-img {
+		padding-top: 0.5em;
+		padding-left: 2.50em;
+		width: 35em;
+	}
+#form {
+	margin-top: 27em;
+}
+#features {
+	display: flex;
+}
+@media only screen and (max-width: 600px) {
+	html, body {
+		background-color: #cdcdcd;
+	}
+}
